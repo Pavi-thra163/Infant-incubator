@@ -1,0 +1,20 @@
+1. Data Acquisition:
+    Vital parameters of the infant such as temperature, humidity, respiration, pulse, and         crying sound are continuously monitored using respective sensors.
+    The sensors are placed inside the incubator chamber for real-time data collection.
+
+ 2. Signal Processing & Control:
+    The collected sensor data is sent to the microcontroller (Arduino/ESP32).
+    The controller compares the values with predefined safe ranges for infants.
+    If any parameter goes beyond the limit, it triggers an alert system (buzzer + display
+          warning).
+3. Air Purification & Environment Control:
+    A fan circulates air through the HEPA filter, removing dust and harmful particles.
+    This ensures a clean and safe breathing environment for the infant.
+    Humidity and airflow are regulated automatically to maintain comfort.
+. Data Display & Alerts
+    An LCD screen displays real-time sensor values for hospital staff.
+    The buzzer/alarm alerts caregivers in case of abnormalities in any parameter.
+
+5. Power Management
+    The system operates on main supply (AC power) under normal conditions.
+    During power failure, an automatic relay switches to battery backup, ensuring uninterrupted    operation.
